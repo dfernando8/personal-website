@@ -109,8 +109,26 @@ p {
   color: white;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 576px) {
   .navigation-links {
     display: none;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .project-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
   }
 }
